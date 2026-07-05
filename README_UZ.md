@@ -1,27 +1,12 @@
-ALL FINANCE CONTRACT v5.0
+# ALL FINANCE CONTRACT v7.0
 
-# ALL FINANCE CONTRACT v4.2 — Tilda uchun xavfsiz ulash
+Firebase Authentication + Cloud Firestore bilan ishlaydigan versiya.
 
-## Nima uchun xato chiqdi?
-`public/index.html` katta fayl bo‘lgani sababli uni Tilda T123 blokiga to‘liq joylashtirish mumkin emas. Tilda blokdagi matn hajmini cheklaydi.
+## Standart ish tartibi
 
-## To‘g‘ri ishlatish usuli
-Asosiy platforma Render yoki boshqa hostingda ishlaydi. Tilda ichiga esa faqat kichik `iframe` kodi qo‘yiladi.
+1. `FIREBASE_ULASH_UZ.md` bo‘yicha Firebase loyihasini sozlang.
+2. `public/config.js` ni Firebase config bilan to‘ldiring.
+3. `firestore.rules` ni Firebase Console'da Publish qiling.
+4. GitHub'ga yuklang va Render'da qayta deploy qiling.
 
-## Renderga joylash
-1. Ushbu papkani GitHub/GitLab repozitoriyga yuklang yoki Render qo‘llaydigan usulda joylashtiring.
-2. Renderda yangi Web Service yarating.
-3. Build command: `npm install`
-4. Start command: `npm start`
-5. Deploy tugagach, Render bergan manzilni nusxalang.
-
-## Tildaga ulash
-1. `TILDA_T123_KODI.html` faylini oching.
-2. `https://SIZNING-RENDER-MANZILINGIZ.onrender.com/` o‘rniga Render manzilingizni yozing.
-3. Faqat shu kichik kodni Tilda T123 HTML blokiga qo‘ying.
-4. Sahifani saqlang va Publish qiling.
-
-## Muhim
-- `public/index.html` kodini T123 blokiga to‘liq qo‘ymang.
-- Ma’lumotlar hozircha platforma ochilgan brauzerning localStorage xotirasida saqlanadi.
-- Keyingi bosqichda Supabase ulansa, ma’lumotlar barcha qurilmalarda umumiy bo‘ladi.
+Barcha korxonalar, xona narxlari, yig‘imlar, shablonlar va shartnomalar foydalanuvchining Firebase UID raqamiga bog‘langan holda saqlanadi.
