@@ -12,7 +12,7 @@ app.use(express.static(publicDir, {
 }));
 
 app.get('/health', (_req, res) => {
-  res.json({ ok: true, app: 'ALL FINANCE CONTRACT v5.0' });
+  res.json({ ok: true, app: 'ALL FINANCE CONTRACT v7.0' });
 });
 
 app.get('*', (_req, res) => {
