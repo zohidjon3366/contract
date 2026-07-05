@@ -1,8 +1,8 @@
 {
   "name": "all-finance-contract-platform",
-  "version": "4.2.0",
+  "version": "7.0.0",
   "private": true,
-  "description": "Tilda orqali iframe bilan ulanadigan shartnoma yaratish platformasi",
+  "description": "Firebase Auth va Firestore bilan ishlaydigan shartnoma yaratish platformasi",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
@@ -14,4 +14,3 @@
     "express": "^4.21.2"
   }
 }
-  
