@@ -1,3 +1,5 @@
+ALL FINANCE CONTRACT v5.0
+
 # ALL FINANCE CONTRACT v4.2 — Tilda uchun xavfsiz ulash
 
 ## Nima uchun xato chiqdi?
