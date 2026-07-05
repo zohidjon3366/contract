@@ -1,0 +1,16 @@
+{
+  "name": "all-finance-contract-platform",
+  "version": "4.2.0",
+  "private": true,
+  "description": "Tilda orqali iframe bilan ulanadigan shartnoma yaratish platformasi",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
