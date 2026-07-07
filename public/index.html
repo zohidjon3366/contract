@@ -2,7 +2,7 @@
 <html lang="uz">
 <head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>ALL FINANCE CONTRACT FINAL v10.3</title>
+<title>ALL FINANCE CONTRACT FINAL v10.4</title>
 <style>
 :root{--bg:#f3f4fb;--panel:#fff;--panel2:#f8fafc;--ink:#172033;--muted:#637083;--line:#dbe3ef;--brand:#4647A4;--brand2:#31337F;--accent:#08B25F;--accent2:#059a54;--danger:#b42318;--warn:#b7791f;--shadow:0 20px 55px rgba(49,51,127,.14);--radius:24px}*{box-sizing:border-box}body{margin:0;font-family:Inter,Segoe UI,Arial,sans-serif;color:var(--ink);background:radial-gradient(circle at top left,#e9e8ff 0,#f7f9fd 38%,#f3f4fb 100%)}button,input,textarea,select{font:inherit}button{cursor:pointer}.app{display:grid;grid-template-columns:300px 1fr;min-height:100vh}.app.hidden{display:none}.side{background:linear-gradient(180deg,#4647A4,#31337F);color:white;padding:24px;position:sticky;top:0;height:100vh;overflow:auto}.brand{display:flex;gap:14px;align-items:center;margin-bottom:24px}.logo{width:56px;height:56px;border-radius:18px;background:rgba(255,255,255,.12);display:grid;place-items:center;font-weight:900;overflow:hidden;border:1px solid rgba(255,255,255,.18)}.logo img{width:100%;height:100%;object-fit:cover}.brand h1{font-size:18px;margin:0}.brand p{font-size:12px;color:#dbe8ff;margin:3px 0 0}.nav{display:grid;gap:8px}.nav button{border:0;background:transparent;color:#edf3ff;text-align:left;padding:12px 14px;border-radius:14px;font-weight:700}.nav button:hover,.nav button.active{background:rgba(255,255,255,.14);color:#fff}.hint{margin-top:20px;padding:14px;border-radius:16px;background:rgba(255,255,255,.10);color:#e7efff;font-size:12px;line-height:1.5}.main{padding:28px}.topbar{display:flex;justify-content:space-between;gap:16px;align-items:flex-start;margin-bottom:20px}.title h2{font-size:28px;margin:0}.title p{color:var(--muted);margin:6px 0 0}.actions,.inline{display:flex;gap:10px;flex-wrap:wrap;align-items:center}.btn{border:1px solid var(--line);background:#fff;color:var(--ink);border-radius:13px;padding:10px 14px;font-weight:750}.btn.primary{background:var(--brand);border-color:var(--brand);color:white}.btn.ok{background:#e9fbf2;color:#067647;border-color:#8fe0b5}.btn.danger{background:#fff3f2;color:var(--danger);border-color:#f6c7c3}.btn.small{padding:7px 10px;border-radius:10px;font-size:13px}.section{display:none}.section.active{display:block}.grid{display:grid;gap:16px}.grid.two{grid-template-columns:1fr 1fr}.grid.three{grid-template-columns:repeat(3,1fr)}.grid.four{grid-template-columns:repeat(4,1fr)}.split{display:grid;grid-template-columns:390px 1fr;gap:16px}.card{background:rgba(255,255,255,.92);backdrop-filter:blur(10px);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:20px}.card h3{margin:0 0 14px}.muted{color:var(--muted)}.field{display:grid;gap:7px;margin-bottom:13px}.field label{font-size:13px;font-weight:800;color:#344054}.field input,.field textarea,.field select{border:1px solid var(--line);border-radius:12px;background:white;padding:11px 12px;outline:none;color:var(--ink);width:100%}.field textarea{min-height:100px;line-height:1.45;resize:vertical}.field input:focus,.field textarea:focus,.field select:focus{border-color:#93c5fd;box-shadow:0 0 0 4px rgba(37,99,235,.10)}.tablebox{border:1px solid var(--line);border-radius:17px;overflow:auto;background:white}table{width:100%;border-collapse:separate;border-spacing:0}th,td{padding:10px;border-bottom:1px solid var(--line);font-size:14px;text-align:left;vertical-align:top}th{background:#f1f5f9;color:#334155;font-size:12px;text-transform:uppercase;letter-spacing:.04em}tr:last-child td{border-bottom:0}.kpi{border:1px solid var(--line);background:linear-gradient(135deg,#fff,#f8fbff);border-radius:20px;padding:18px}.kpi strong{font-size:27px;display:block}.kpi span{font-size:13px;color:var(--muted)}.pill,.tag{display:inline-flex;align-items:center;border-radius:999px;padding:5px 9px;font-size:12px;border:1px solid #cbc9ff;background:#f1f0ff;color:var(--brand2)}.pill.green{background:#ecfdf5;border-color:#bbf7d0;color:#047857}.pill.orange{background:#fff7ed;border-color:#fed7aa;color:#c2410c}.section-editor{border:1px solid var(--line);background:var(--panel2);border-radius:18px;padding:14px;margin-bottom:12px}.section-editor .head{display:flex;justify-content:space-between;gap:8px;align-items:center;margin-bottom:9px}.section-editor .num{background:#dbeafe;color:#1d4ed8;font-weight:900;border-radius:10px;padding:6px 9px}.empty{border:1px dashed #c9d0de;border-radius:18px;padding:24px;text-align:center;color:var(--muted);background:#f8fafc}.mono{font-family:ui-monospace,Consolas,monospace;font-size:12px}.subtle{border:1px dashed #cbd5e1;background:#f8fafc;border-radius:16px;padding:14px}.legal-preview{white-space:pre-line;background:#f8fafc;border:1px solid var(--line);border-radius:14px;padding:12px;font-size:13px;color:#334155}.toast{display:none;position:fixed;right:24px;bottom:24px;background:#0f172a;color:white;padding:12px 16px;border-radius:14px;box-shadow:var(--shadow);z-index:3500}.modal{display:none;position:fixed;inset:0;background:rgba(15,23,42,.60);z-index:900;padding:28px;overflow:auto}.modal.open{display:block}.modal .inner{max-width:1120px;margin:auto;background:#fff;border-radius:24px;padding:22px;box-shadow:var(--shadow)}.modalbar{display:flex;justify-content:space-between;gap:12px;align-items:center;margin-bottom:14px}.preview{border:1px solid var(--line);border-radius:18px;padding:24px;background:white;max-height:72vh;overflow:auto}.doc{font-family:"Times New Roman",Georgia,serif;color:#000;font-size:12pt;line-height:1.25;max-width:210mm;margin:0 auto;background:#fff}.doc h1{text-align:center;font-size:15pt;font-weight:700;text-transform:uppercase;letter-spacing:.2px;margin:0 135px 3mm}.doc h2{text-align:center;font-size:12pt;font-weight:700;margin:0 135px 5mm}.doc h3{font-size:12pt;font-weight:700;text-transform:uppercase;text-align:center;margin:5mm 0 2.5mm;page-break-after:avoid}.doc p{margin:0 0 2.3mm;text-align:justify}.doc p.clause{text-indent:12.5mm;margin-bottom:2.2mm}.doc .meta{display:flex;justify-content:space-between;font-weight:700;margin:3mm 0 5mm}.doc table{border-collapse:collapse;width:100%;margin:3mm 0 5mm;page-break-inside:auto}.doc tr{page-break-inside:avoid;page-break-after:auto}.doc th,.doc td{border:1px solid #000;padding:1.7mm 1.8mm;font-size:9.4pt;color:#000;line-height:1.15}.doc th{background:#f4f4f4;text-transform:none;letter-spacing:0;text-align:center;font-weight:700}.doc table.hotel-spec th,.doc table.hotel-spec td{font-size:7.7pt;padding:1.1mm 1mm;line-height:1.1}.doc .reqs{display:grid;grid-template-columns:1fr 1fr;gap:7mm;page-break-inside:avoid}.doc .req{border:1px solid #000;padding:3mm;min-height:44mm;white-space:pre-line;font-size:10.5pt;line-height:1.25}.doc .sign{display:grid;grid-template-columns:1fr 1fr;gap:12mm;margin-top:7mm;page-break-inside:avoid}.doc .center{text-align:center}.doc .right{text-align:right}.doc .doc-header{position:relative;min-height:25mm;display:flex;align-items:flex-start;justify-content:center}.doc .doc-title-block{width:100%;text-align:center}.doc .doc-logo-wrap{position:absolute;right:0;top:0;width:34mm;height:22mm;display:flex;align-items:flex-start;justify-content:flex-end}.doc .doc-logo{display:block!important;visibility:visible!important;max-width:34mm!important;max-height:22mm!important;width:auto!important;height:auto!important;object-fit:contain!important;-webkit-print-color-adjust:exact;print-color-adjust:exact}.tourist-fee-toggle{margin:2px 0 14px;padding:10px 12px;border:1px solid #d8def0;border-radius:12px;background:#f8f9ff;font-weight:700;color:#38406d}.tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}.tabs button{border:1px solid var(--line);background:#fff;border-radius:999px;padding:8px 12px}.tabs button.active{background:#0f172a;color:#fff}.nowrap{white-space:nowrap}.template-card{display:grid;gap:8px}.help{font-size:13px;color:var(--muted);line-height:1.5}.login-screen{position:fixed;inset:0;z-index:2000;background:linear-gradient(180deg,#4647A4 0%,#31337F 100%);display:flex;align-items:center;justify-content:center;padding:24px}.login-screen.hidden{display:none}.login-card{width:min(440px,100%);background:rgba(255,255,255,.96);border-radius:28px;padding:28px;box-shadow:0 30px 80px rgba(14,17,61,.35)}.login-brand{display:flex;align-items:center;gap:16px;margin-bottom:18px}.login-brand img{width:74px;height:74px;border-radius:22px;object-fit:cover}.login-card h2{margin:0 0 6px;color:var(--brand2)}.login-card p{margin:0 0 18px;color:var(--muted)}.login-note{margin-top:14px;padding:12px 14px;border-radius:14px;background:#f4f5ff;color:#3c3f98;font-size:13px}.top-user{display:flex;align-items:center;gap:10px;padding:10px 14px;border-radius:999px;background:#f3f4ff;border:1px solid #d6d7ff;color:var(--brand2);font-weight:700}.logo-preview{display:flex;align-items:center;gap:12px;margin-top:8px}.logo-preview img{width:64px;height:64px;object-fit:contain;border:1px solid var(--line);border-radius:14px;padding:6px;background:#fff}.doc-head{position:relative}.doc-head.compact{margin-bottom:8px}.doc-head-right{text-align:right;font-size:10pt}.muted-mini{font-size:12px;color:var(--muted)}
 .tax-panel{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:10px 0 2px;padding:11px 13px;border:1px solid #d8dcff;background:linear-gradient(135deg,#f7f7ff,#f0fff7);border-radius:14px;font-size:13px}.tax-panel strong{color:var(--brand2)}.tax-badge{display:inline-flex;align-items:center;border-radius:999px;padding:5px 9px;font-size:12px;font-weight:800}.tax-badge.vat{background:#eafbf2;color:#067647;border:1px solid #9fe2bd}.tax-badge.nonvat{background:#fff4ed;color:#b54708;border:1px solid #f7c9aa}.addendum-row.active-row{background:#f0fdf4}.addendum-summary{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:10px 0}.addendum-summary>div{border:1px solid var(--line);border-radius:14px;padding:10px;background:#f8fafc}.addendum-summary span{display:block;font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.04em}.addendum-summary b{font-size:16px}.change-preview{border:1px dashed #a5b4fc;background:#f7f7ff;border-radius:14px;padding:13px;line-height:1.55}.legal-note{font-size:12px;color:#5b6474;line-height:1.5;background:#f8fafc;border-left:4px solid var(--brand);padding:10px 12px;border-radius:0 12px 12px 0}.registry-inn{font-size:11px;color:var(--muted)}.effective-amount{font-weight:850;color:#067647}.base-amount{text-decoration:line-through;color:#98a2b3;font-size:11px}.addendum-chip{display:inline-flex;align-items:center;gap:5px;border:1px solid #c7d7fe;background:#eff6ff;color:#3448a5;border-radius:999px;padding:4px 8px;font-size:11px;font-weight:800;margin-top:5px}.vat-note{font-size:12px;color:#475467;margin-top:5px}.field[hidden]{display:none!important}.page-break-before{break-before:page;page-break-before:always}
@@ -327,10 +327,386 @@ body{min-height:100vh}
 }
 /* ================= END FINAL v10.3 ================= */
 
+
+/* ================= FINAL v10.4: COMPACT MODERN UI ================= */
+:root{
+  --brand:#4546a4;
+  --brand2:#2e307c;
+  --brandSoft:#eef0ff;
+  --accent:#0ab46a;
+  --accentSoft:#e9f9f1;
+  --ink:#20263a;
+  --muted:#70798f;
+  --line:#dfe4ef;
+  --surface:#ffffff;
+  --surface2:#f7f8fc;
+  --shadow:0 12px 34px rgba(46,48,124,.10);
+  --shadowHover:0 18px 40px rgba(46,48,124,.14);
+  --radius:18px;
+}
+html,body{
+  font-family:"Segoe UI Variable","Inter","Aptos","Segoe UI",Arial,sans-serif!important;
+  color:var(--ink);
+}
+body{
+  background:linear-gradient(145deg,#f1f3fb 0%,#f8f9fd 48%,#eff8f4 100%)!important;
+}
+.app{
+  grid-template-columns:232px minmax(0,1fr)!important;
+}
+.side{
+  padding:16px 12px!important;
+  background:linear-gradient(165deg,#43459f 0%,#30327f 72%,#252668 100%)!important;
+  box-shadow:12px 0 35px rgba(39,41,105,.16);
+}
+.brand{
+  gap:10px!important;
+  padding:6px 8px 14px!important;
+  margin-bottom:10px!important;
+}
+.logo{
+  width:42px!important;
+  height:42px!important;
+  border-radius:13px!important;
+}
+.brand h1{
+  font-size:14px!important;
+  line-height:1.2!important;
+  letter-spacing:.15px!important;
+}
+.brand p{
+  font-size:10px!important;
+  margin-top:2px!important;
+}
+.nav{
+  gap:4px!important;
+  margin-top:10px!important;
+}
+.nav button{
+  display:flex!important;
+  align-items:center!important;
+  gap:10px!important;
+  min-height:38px!important;
+  padding:9px 11px!important;
+  border-radius:11px!important;
+  font-size:12.5px!important;
+  font-weight:700!important;
+  letter-spacing:.05px;
+}
+.nav button .nav-icon{
+  width:24px;
+  height:24px;
+  display:grid;
+  place-items:center;
+  border-radius:8px;
+  background:rgba(255,255,255,.10);
+  font-size:13px;
+  flex:0 0 24px;
+}
+.nav button.active .nav-icon{
+  background:var(--brandSoft);
+  color:var(--brand2);
+}
+.hint{
+  margin-top:14px!important;
+  padding:10px 11px!important;
+  border-radius:12px!important;
+  font-size:10.5px!important;
+  line-height:1.45!important;
+}
+.main{
+  padding:18px 20px 30px!important;
+}
+.topbar{
+  margin:-18px -20px 16px!important;
+  padding:12px 20px 10px!important;
+  gap:10px!important;
+  background:rgba(248,249,253,.92)!important;
+  border-bottom:1px solid rgba(218,223,236,.95)!important;
+}
+.title h2{
+  font-size:21px!important;
+  font-weight:800!important;
+  letter-spacing:-.25px!important;
+}
+.title p{
+  font-size:12px!important;
+  margin-top:3px!important;
+}
+.actions{
+  gap:6px!important;
+}
+.actions .btn,.top-user{
+  min-height:34px!important;
+  padding:7px 10px!important;
+  border-radius:10px!important;
+  font-size:11.5px!important;
+}
+.top-user{
+  font-weight:750!important;
+}
+.zoom-control{
+  border-radius:11px!important;
+  padding:3px!important;
+}
+.zoom-control .zoom-btn,
+.zoom-control .zoom-value,
+.zoom-control .zoom-fit{
+  height:30px!important;
+  min-height:30px!important;
+  font-size:11.5px!important;
+  border-radius:8px!important;
+}
+.zoom-control .zoom-btn{
+  width:30px!important;
+  min-width:30px!important;
+}
+.zoom-control .zoom-value{
+  min-width:52px!important;
+}
+.zoom-control .zoom-fit{
+  padding:0 8px!important;
+}
+.card{
+  padding:15px!important;
+  border-radius:17px!important;
+  box-shadow:var(--shadow)!important;
+  border:1px solid #e1e5ef!important;
+}
+.card:hover{
+  box-shadow:var(--shadowHover)!important;
+}
+.card h3{
+  font-size:15px!important;
+  margin-bottom:10px!important;
+  letter-spacing:-.08px;
+}
+.card-heading{
+  margin-bottom:10px!important;
+}
+.card-kicker,.eyebrow{
+  font-size:9px!important;
+  letter-spacing:.12em!important;
+  font-weight:850!important;
+}
+.soft-icon{
+  width:34px!important;
+  height:34px!important;
+  border-radius:11px!important;
+  font-size:16px!important;
+}
+.field{
+  gap:5px!important;
+  margin-bottom:9px!important;
+}
+.field label{
+  font-size:11px!important;
+  font-weight:800!important;
+  color:#3c435a!important;
+}
+.field input,.field textarea,.field select{
+  min-height:36px!important;
+  padding:8px 10px!important;
+  border-radius:10px!important;
+  font-size:12.5px!important;
+  background:#fbfcff!important;
+  border-color:#dce2ed!important;
+}
+.field textarea{
+  min-height:72px!important;
+  line-height:1.4!important;
+}
+.field input:focus,.field textarea:focus,.field select:focus{
+  border-color:#787acb!important;
+  box-shadow:0 0 0 3px rgba(69,70,164,.10)!important;
+}
+.btn{
+  min-height:34px!important;
+  padding:7px 11px!important;
+  border-radius:10px!important;
+  font-size:11.5px!important;
+  font-weight:800!important;
+  box-shadow:0 3px 8px rgba(30,34,74,.04)!important;
+}
+.btn.primary{
+  background:linear-gradient(135deg,#4e50b2,#3a3c92)!important;
+  box-shadow:0 7px 16px rgba(69,70,164,.19)!important;
+}
+.btn.ok{
+  background:linear-gradient(135deg,#edf9f3,#e1f7eb)!important;
+}
+.btn.small{
+  min-height:29px!important;
+  padding:5px 8px!important;
+  border-radius:8px!important;
+  font-size:10.5px!important;
+}
+.inline{
+  gap:7px!important;
+}
+.filter-strip,.subtle,.tax-panel,.rate-info{
+  padding:10px 11px!important;
+  border-radius:12px!important;
+  margin-top:10px!important;
+}
+.filter-strip{
+  margin-bottom:9px!important;
+}
+.tablebox{
+  border-radius:13px!important;
+  border-color:#e0e5ef!important;
+  background:#fff!important;
+}
+table{
+  border-spacing:0!important;
+}
+th,td{
+  padding:7px 8px!important;
+  font-size:11.2px!important;
+  line-height:1.3!important;
+}
+th{
+  font-size:9.5px!important;
+  font-weight:850!important;
+  letter-spacing:.04em!important;
+  color:#4b536b!important;
+  background:#f1f3f9!important;
+}
+tbody tr:hover td{
+  background:#fafbfe!important;
+}
+.pill,.tag,.status-badge,.rate-status{
+  padding:4px 7px!important;
+  font-size:9.5px!important;
+  border-radius:999px!important;
+}
+.legal-preview{
+  padding:9px 10px!important;
+  border-radius:11px!important;
+  font-size:11px!important;
+  line-height:1.45!important;
+}
+.logo-preview{
+  gap:9px!important;
+}
+.logo-preview img{
+  width:48px!important;
+  height:48px!important;
+  border-radius:11px!important;
+}
+.page-banner{
+  padding:18px 20px!important;
+  margin-bottom:14px!important;
+  border-radius:20px!important;
+}
+.page-banner h2{
+  font-size:23px!important;
+  margin:3px 0 6px!important;
+}
+.page-banner p{
+  font-size:12px!important;
+  line-height:1.5!important;
+  max-width:760px;
+}
+.banner-pills span{
+  font-size:9.5px!important;
+  padding:4px 7px!important;
+}
+.banner-mark{
+  width:74px!important;
+  height:74px!important;
+  border-radius:20px!important;
+}
+.dashboard-kpis{
+  gap:10px!important;
+}
+.kpi{
+  padding:13px!important;
+  border-radius:15px!important;
+}
+.kpi strong{
+  font-size:22px!important;
+}
+.kpi span{
+  font-size:10.5px!important;
+}
+.template-card{
+  gap:6px!important;
+}
+.help,.muted,.company-register-count,.tariff-detail,.validity-range{
+  font-size:10.5px!important;
+}
+.mono{
+  font-size:10.5px!important;
+}
+.doc-editor-summary>div{
+  min-width:260px!important;
+  padding:10px!important;
+  border-radius:11px!important;
+}
+.registry-tools{
+  gap:7px!important;
+  margin-bottom:10px!important;
+}
+.registry-tools .field{
+  min-width:150px!important;
+}
+.login-card{
+  width:min(400px,94vw)!important;
+  padding:22px!important;
+  border-radius:22px!important;
+}
+.login-brand img{
+  width:58px!important;
+  height:58px!important;
+  border-radius:17px!important;
+}
+.login-card h2{
+  font-size:21px!important;
+}
+.login-card p{
+  font-size:12px!important;
+}
+.modal .inner{
+  border-radius:18px!important;
+  padding:15px!important;
+}
+.modalbar{
+  margin-bottom:10px!important;
+}
+.preview{
+  border-radius:13px!important;
+  padding:16px!important;
+}
+.menu-toggle{
+  width:36px!important;
+  height:36px!important;
+  border-radius:10px!important;
+}
+@media(max-width:1200px){
+  .app{grid-template-columns:210px minmax(0,1fr)!important}
+  .side{padding:14px 9px!important}
+  .nav button{font-size:11.5px!important;padding:8px 9px!important}
+  .main{padding:15px!important}
+  .topbar{margin:-15px -15px 14px!important;padding:11px 15px 9px!important}
+}
+@media(max-width:900px){
+  .side{width:min(252px,86vw)!important}
+  .main{padding:12px!important}
+  .topbar{margin:-12px -12px 12px!important;padding:9px 12px!important}
+  .actions .btn,.top-user{font-size:10.5px!important;padding:6px 8px!important}
+}
+@media(max-width:560px){
+  .card{padding:12px!important}
+  .field input,.field textarea,.field select{font-size:12px!important}
+  th,td{font-size:10.5px!important;padding:6px!important}
+}
+/* ================= END FINAL v10.4 ================= */
+
 </style>
 </head>
 <body>
-<div class="login-screen" id="loginScreen"><div class="login-card"><div class="login-brand"><img src="all_finance_logo.jpg" alt="All Finance"><div><h2>ALL FINANCE CONTRACT</h2><p>Login orqali kirish</p></div></div><div class="field"><label>Login (email)</label><input id="loginUser" type="email" placeholder="admin@company.uz" autocomplete="username"></div><div class="field"><label>Parol</label><input id="loginPass" type="password" placeholder="Parol" autocomplete="current-password"></div><div class="inline"><button class="btn primary" id="loginButton" onclick="loginSubmit()">Kirish</button><button class="btn" onclick="resetPassword()">Parolni tiklash</button></div><div id="loginError" style="display:none;margin-top:12px;padding:11px 13px;border-radius:12px;background:#fff1f0;border:1px solid #f5b7b1;color:#9f1c14;font-size:13px;line-height:1.45"></div><div id="loginStatus" style="margin-top:10px;color:#5d6780;font-size:13px"></div><div class="login-note">Kirish Firebase Authentication orqali tekshiriladi. Foydalanuvchini Firebase Console → Authentication → Users bo‘limida yarating.</div></div></div><div class="app hidden" id="appRoot"><aside class="side"><div class="brand"><div class="logo"><img src="all_finance_logo.jpg" alt="All Finance"></div><div><h1>ALL FINANCE CONTRACT</h1><p>Firebase Cloud • FINAL v10.3</p></div></div><div class="nav" id="nav"></div><div class="hint">Dizayn All Finance logotipi ranglariga moslashtirildi. Korxona logotipi ixtiyoriy yuklanadi va shartnoma o‘ng yuqori burchagida ko‘rinishi mumkin.</div></aside><div class="side-overlay" onclick="toggleSidebar(false)"></div><main class="main"><div class="topbar"><button class="btn menu-toggle" type="button" aria-label="Menyuni ochish" onclick="toggleSidebar()">☰</button><div class="title"><h2 id="pageTitle">Bosh sahifa</h2><p id="pageSubtitle">Tayyor shartnomalar platformasi</p></div><div class="actions"><div class="top-user"><span id="currentUserBadge">—</span></div><div class="top-user" id="cloudStatus">Firebase: ulanmoqda</div><div class="zoom-control" title="Platforma masshtabi">
+<div class="login-screen" id="loginScreen"><div class="login-card"><div class="login-brand"><img src="all_finance_logo.jpg" alt="All Finance"><div><h2>ALL FINANCE CONTRACT</h2><p>Login orqali kirish</p></div></div><div class="field"><label>Login (email)</label><input id="loginUser" type="email" placeholder="admin@company.uz" autocomplete="username"></div><div class="field"><label>Parol</label><input id="loginPass" type="password" placeholder="Parol" autocomplete="current-password"></div><div class="inline"><button class="btn primary" id="loginButton" onclick="loginSubmit()">Kirish</button><button class="btn" onclick="resetPassword()">Parolni tiklash</button></div><div id="loginError" style="display:none;margin-top:12px;padding:11px 13px;border-radius:12px;background:#fff1f0;border:1px solid #f5b7b1;color:#9f1c14;font-size:13px;line-height:1.45"></div><div id="loginStatus" style="margin-top:10px;color:#5d6780;font-size:13px"></div><div class="login-note">Kirish Firebase Authentication orqali tekshiriladi. Foydalanuvchini Firebase Console → Authentication → Users bo‘limida yarating.</div></div></div><div class="app hidden" id="appRoot"><aside class="side"><div class="brand"><div class="logo"><img src="all_finance_logo.jpg" alt="All Finance"></div><div><h1>ALL FINANCE CONTRACT</h1><p>Firebase Cloud • FINAL v10.4</p></div></div><div class="nav" id="nav"></div><div class="hint">Dizayn All Finance logotipi ranglariga moslashtirildi. Korxona logotipi ixtiyoriy yuklanadi va shartnoma o‘ng yuqori burchagida ko‘rinishi mumkin.</div></aside><div class="side-overlay" onclick="toggleSidebar(false)"></div><main class="main"><div class="topbar"><button class="btn menu-toggle" type="button" aria-label="Menyuni ochish" onclick="toggleSidebar()">☰</button><div class="title"><h2 id="pageTitle">Bosh sahifa</h2><p id="pageSubtitle">Tayyor shartnomalar platformasi</p></div><div class="actions"><div class="top-user"><span id="currentUserBadge">—</span></div><div class="top-user" id="cloudStatus">Firebase: ulanmoqda</div><div class="zoom-control" title="Platforma masshtabi">
 <button class="zoom-btn" type="button" onclick="changeUiZoom(-10)" aria-label="Uzoqlashtirish">−</button>
 <button class="zoom-value" id="uiZoomLabel" type="button" onclick="resetUiZoom()" title="100% ga qaytarish">100%</button>
 <button class="zoom-btn" type="button" onclick="changeUiZoom(10)" aria-label="Yaqinlashtirish">+</button>
@@ -477,7 +853,7 @@ document.addEventListener('keydown',e=>{
   if(e.key==='Escape')toggleSidebar(false);
 });
 
-async function init(){initUiZoom();renderNav();$('hDate').value=today();$('sDate').value=today();$('hNumber').value='H-'+new Date().getFullYear()+'-'+String(state.contracts.length+1).padStart(3,'0');$('sNumber').value='S-'+new Date().getFullYear()+'-'+String(state.contracts.length+1).padStart(3,'0');clearTemplateForm();clearCompanyForm();renderAll();await initAuth()}function renderNav(){$('nav').innerHTML=Object.entries(PAGES).map(([k,v])=>`<button id="nav_${k}" onclick="showSection('${k}')">${v[0]}</button>`).join('')}function showSection(id){document.querySelectorAll('.section').forEach(x=>x.classList.remove('active'));$(id).classList.add('active');document.querySelectorAll('.nav button').forEach(x=>x.classList.remove('active'));$('nav_'+id).classList.add('active');$('pageTitle').textContent=PAGES[id][0];$('pageSubtitle').textContent=PAGES[id][1];renderAll();if(window.innerWidth<=900)toggleSidebar(false)}function renderAll(){renderKpis();renderCompanies();renderRooms();renderFees();renderTemplates();renderSelects();renderArchive();renderRecentContracts();renderGuests();renderProducts();calcHotelTotals();calcSaleTotals()}function renderKpis(){$('kpis').innerHTML=[['Korxonalar',state.companies.length],['Shablonlar',state.templates.length],['Hotel shartnomalar',state.contracts.filter(x=>x.kind==='hotel'||x.kind==='addendum').length],['Oldi-sotdi',state.contracts.filter(x=>x.kind==='sale').length]].map(x=>`<div class="kpi"><span>${x[0]}</span><strong>${x[1]}</strong></div>`).join('')}
+async function init(){initUiZoom();renderNav();$('hDate').value=today();$('sDate').value=today();$('hNumber').value='H-'+new Date().getFullYear()+'-'+String(state.contracts.length+1).padStart(3,'0');$('sNumber').value='S-'+new Date().getFullYear()+'-'+String(state.contracts.length+1).padStart(3,'0');clearTemplateForm();clearCompanyForm();renderAll();await initAuth()}function renderNav(){const icons={dashboard:'⌂',companies:'▦',settings:'₸',templates:'▤',hotel:'H',sale:'◈',register:'≡',invoices:'₽',facturas:'ƒ',audit:'↺',addendums:'＋',archive:'▣'};$('nav').innerHTML=Object.entries(PAGES).map(([k,v])=>`<button id="nav_${k}" onclick="showSection('${k}')"><span class="nav-icon">${icons[k]||'•'}</span><span>${v[0]}</span></button>`).join('')}function showSection(id){document.querySelectorAll('.section').forEach(x=>x.classList.remove('active'));$(id).classList.add('active');document.querySelectorAll('.nav button').forEach(x=>x.classList.remove('active'));$('nav_'+id).classList.add('active');$('pageTitle').textContent=PAGES[id][0];$('pageSubtitle').textContent=PAGES[id][1];renderAll();if(window.innerWidth<=900)toggleSidebar(false)}function renderAll(){renderKpis();renderCompanies();renderRooms();renderFees();renderTemplates();renderSelects();renderArchive();renderRecentContracts();renderGuests();renderProducts();calcHotelTotals();calcSaleTotals()}function renderKpis(){$('kpis').innerHTML=[['Korxonalar',state.companies.length],['Shablonlar',state.templates.length],['Hotel shartnomalar',state.contracts.filter(x=>x.kind==='hotel'||x.kind==='addendum').length],['Oldi-sotdi',state.contracts.filter(x=>x.kind==='sale').length]].map(x=>`<div class="kpi"><span>${x[0]}</span><strong>${x[1]}</strong></div>`).join('')}
 function mergeSeedTemplates(){let added=0;SEED_TEMPLATES.forEach(t=>{if(!state.templates.some(x=>x.id===t.id)){state.templates.push(JSON.parse(JSON.stringify(t)));added++}});SEED_COMPANIES.forEach(c=>{if(!state.companies.some(x=>x.id===c.id)){state.companies.push(JSON.parse(JSON.stringify(c)))}});SEED_ROOMS.forEach(r=>{if(!state.rooms.some(x=>x.id===r.id)){state.rooms.push(JSON.parse(JSON.stringify(r)))}});SEED_FEES.forEach(f=>{if(!state.fees.some(x=>x.id===f.id)){state.fees.push(JSON.parse(JSON.stringify(f)))}});save();renderAll();toast(added?added+' ta shablon qo‘shildi':'Barcha standart shablonlar bor')}
 function resetDemo(){if(confirm('Barcha ma’lumotlar standart demo holatiga qaytarilsinmi?')){state=defaultState();workingGuests=[];workingProducts=[];save();init();toast('Demo qayta yuklandi')}}function backup(){const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([JSON.stringify(state,null,2)],{type:'application/json'}));a.download='all_finance_contract_FINAL_v9_backup.json';a.click()}function restore(e){const f=e.target.files[0];if(!f)return;const r=new FileReader();r.onload=()=>{try{state=JSON.parse(r.result);state.seedVersion=90;save();renderAll();toast('Restore qilindi')}catch(err){toast('JSON xato')}};r.readAsText(f)}
 function companyLegal(c){if(!c)return '';let lines=[c.name,c.address?'Адрес: '+c.address:'',c.bank?'Банк: '+c.bank:'',c.accountUzs?'Р/с: '+c.accountUzs:'',c.accountCurrency?'Валютный счет: '+c.accountCurrency:'',c.inn?'ИНН: '+c.inn:'',c.mfo?'МФО: '+c.mfo:'',c.swift?'SWIFT: '+c.swift:'',c.oked?'ОКЭД: '+c.oked:'',c.vatNumber?c.vatNumber:'',c.phone?'Тел: '+c.phone:'',c.email?'Email: '+c.email:'',c.director?(c.position||'')+' '+c.director:''];return lines.filter(Boolean).join('\n')}function roleOk(c,roles){return roles.includes(c.role)||c.role==='all'}
