@@ -1,8 +1,8 @@
 {
   "name": "all-finance-contract-platform",
-  "version": "10.5.0",
+  "version": "10.6.0",
   "private": true,
-  "description": "ALL FINANCE CONTRACT FINAL v10.5 light brand theme",
+  "description": "ALL FINANCE CONTRACT FINAL v10.6 neutral modern redesign",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
