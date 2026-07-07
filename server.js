@@ -83,7 +83,7 @@ const server = http.createServer((req, res) => {
   const pathname = requestUrl.pathname;
 
   if (pathname === '/health') {
-    sendJson(res, 200, { ok: true, app: 'ALL FINANCE CONTRACT FINAL v10.9' });
+    sendJson(res, 200, { ok: true, app: 'ALL FINANCE SHARTNOMA FINAL v10.12' });
     return;
   }
 
@@ -112,5 +112,5 @@ const server = http.createServer((req, res) => {
 });
 
 server.listen(PORT, HOST, () => {
-  console.log(`ALL FINANCE CONTRACT FINAL v10.9 running on http://${HOST}:${PORT}`);
+  console.log(`ALL FINANCE SHARTNOMA FINAL v10.12 running on http://${HOST}:${PORT}`);
 });
