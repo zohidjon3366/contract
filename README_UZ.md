@@ -34,3 +34,8 @@ Qo‘shimcha kelishuvlar va soliq turi bo‘yicha ma’lumotlar Firebase umumiy 
 
 ## Huquqiy eslatma
 Qo‘shimcha kelishuv shabloni umumiy xo‘jalik shartnomalari uchun tuzilgan. Maxsus litsenziya, davlat xaridi, valyuta nazorati yoki alohida soha talablari mavjud bo‘lsa, imzolashdan oldin yurist bilan tekshiring. QQS 6% va 0% stavkalari faqat tegishli huquqiy asos mavjud bo‘lganda tanlanadi.
+
+
+## FINAL v10.9 dizayni
+
+Interfeys rasmiy davlat portallari ruhidagi Presidential Premium uslubiga o‘tkazildi. Yangi Manrope va Roboto Condensed shriftlari, ko‘k-oq-yashil ranglar, aniq ko‘rinadigan O‘zbekiston bayrog‘i foni va yangilangan moliyaviy bannerlar qo‘llanildi.

@@ -1,8 +1,8 @@
 {
   "name": "all-finance-contract-platform",
-  "version": "10.8.0",
+  "version": "10.9.0",
   "private": true,
-  "description": "ALL FINANCE CONTRACT FINAL v10.8 professional redesign",
+  "description": "ALL FINANCE CONTRACT FINAL v10.9 presidential premium interface",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
