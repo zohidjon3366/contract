@@ -3,8 +3,8 @@ services:
     name: all-finance-contract
     runtime: node
     plan: free
-    buildCommand: npm ci --omit=dev --no-audit --no-fund
-    startCommand: npm start
+    buildCommand: echo "No build required"
+    startCommand: node server.js
     healthCheckPath: /health
     envVars:
       - key: NODE_VERSION
