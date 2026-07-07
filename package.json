@@ -1,8 +1,8 @@
 {
   "name": "all-finance-shartnoma-platform",
-  "version": "10.13.0",
+  "version": "10.14.0",
   "private": true,
-  "description": "ALL FINANCE SHARTNOMA FINAL v10.13 modern luxury premium interface",
+  "description": "ALL FINANCE SHARTNOMA FINAL v10.14 annual PDF annex and balanced premium typography",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"

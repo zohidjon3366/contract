@@ -1,4 +1,4 @@
-# ALL FINANCE SHARTNOMA — FINAL v10.13
+# ALL FINANCE SHARTNOMA — FINAL v10.14
 
 ## Final versiyadagi asosiy imkoniyatlar
 
@@ -46,3 +46,12 @@ Interfeys rasmiy davlat portallari ruhidagi Presidential Premium uslubiga o‘tk
 - Menyu, slider, kartalar, jadvallar, formalar va ichki bo‘limlar yumaloq shakl, premium gradient va chuqur soyalar bilan yangilandi.
 - “Yangi schet”, “Yangi schet-faktura” va “Yangi qo‘shimcha kelishuv” oynalarining ko‘rinishi tuzatildi.
 - Modal oynalar eng yuqori qatlamda ochiladi, matnlar va kiritish maydonlari aniq ko‘rinadi.
+
+
+## FINAL v10.14 — Yillik PDF narxlar ilovasi
+
+- Yillik mehmonxona shartnomasida narxlar PDF faylini yuklash mumkin.
+- PDF sahifalari shartnoma oxiriga “Приложение — Прейскурант цен” sifatida avtomatik qo‘shiladi.
+- Ilova oldindan ko‘rish, Word va PDF/Print chiqarishda ko‘rinadi.
+- Platforma tipografiyasi yagona Manrope shrift tizimiga keltirildi.
+- PDF yuklash cheklovi: 10 MB va 8 bet.
