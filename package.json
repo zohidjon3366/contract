@@ -1,8 +1,8 @@
 {
   "name": "all-finance-contract-platform",
-  "version": "9.0.0",
+  "version": "10.1.0",
   "private": true,
-  "description": "ALL FINANCE CONTRACT FINAL v9.0",
+  "description": "ALL FINANCE CONTRACT FINAL v10.1 responsive zoom",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
