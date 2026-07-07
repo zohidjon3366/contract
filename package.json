@@ -1,8 +1,8 @@
 {
   "name": "all-finance-contract-platform",
-  "version": "10.3.0",
+  "version": "10.4.0",
   "private": true,
-  "description": "ALL FINANCE CONTRACT FINAL v10.3 single-column interface",
+  "description": "ALL FINANCE CONTRACT FINAL v10.4 compact modern UI",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
