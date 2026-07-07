@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 330">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f2f8f4"/><stop offset="1" stop-color="#deeee5"/></linearGradient></defs>
+  <rect width="520" height="330" rx="34" fill="url(#g)"/>
+  <rect x="54" y="54" width="412" height="222" rx="24" fill="#fff" stroke="#bfd7c8" stroke-width="3"/>
+  <rect x="83" y="82" width="116" height="24" rx="12" fill="#0a8f55"/>
+  <rect x="83" y="125" width="345" height="26" rx="10" fill="#edf5f0"/>
+  <rect x="83" y="166" width="345" height="26" rx="10" fill="#edf5f0"/>
+  <rect x="83" y="207" width="345" height="26" rx="10" fill="#edf5f0"/>
+  <rect x="101" y="131" width="89" height="14" rx="7" fill="#6fa686"/>
+  <rect x="101" y="172" width="134" height="14" rx="7" fill="#6fa686"/>
+  <rect x="101" y="213" width="108" height="14" rx="7" fill="#6fa686"/>
+  <circle cx="390" cy="138" r="9" fill="#c9a25d"/><circle cx="390" cy="179" r="9" fill="#176cc1"/><circle cx="390" cy="220" r="9" fill="#0a8f55"/>
+  <path d="M246 92h164" stroke="#b9cee1" stroke-width="10" stroke-linecap="round"/>
+</svg>
