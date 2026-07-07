@@ -1,6 +1,6 @@
 {
   "name": "all-finance-contract-platform",
-  "version": "7.0.0",
+  "version": "8.2.0",
   "private": true,
   "description": "Firebase Auth va Firestore bilan ishlaydigan shartnoma yaratish platformasi",
   "main": "server.js",
@@ -8,7 +8,7 @@
     "start": "node server.js"
   },
   "engines": {
-    "node": ">=18"
+    "node": "24.14.1"
   },
   "dependencies": {
     "express": "^4.21.2"
