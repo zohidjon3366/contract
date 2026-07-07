@@ -1,12 +1,18 @@
-# ALL FINANCE CONTRACT v7.0
+# ALL FINANCE CONTRACT v8.0
 
-Firebase Authentication + Cloud Firestore bilan ishlaydigan versiya.
+Yangi imkoniyatlar:
+- har bir korxona bo'yicha shartnomalar reestri;
+- shartnomadan avtomatik schet na oplatu va schet-faktura loyihasi;
+- schet va fakturalarni tahrirlash, nusxa olish, o'chirish va berilgan holatiga o'tkazish;
+- shartnoma, schet va faktura summalarini solishtirish;
+- to'liq yopilgan shartnomalarni yashil rangda reestr oxiriga tushirish;
+- foydalanuvchilar o'zgarishlari auditi;
+- Firebase Firestore sinxronizatsiyasi.
 
-## Standart ish tartibi
+Standart ish tartibi:
+1. Shartnoma yarating va arxivga saqlang.
+2. Schet va schet-faktura avtomatik loyiha sifatida yaratiladi.
+3. Ularni tahrirlab, `Berildi` holatiga o'tkazing.
+4. Reestr avtomatik qayta hisoblanadi.
 
-1. `FIREBASE_ULASH_UZ.md` bo‘yicha Firebase loyihasini sozlang.
-2. `public/config.js` ni Firebase config bilan to‘ldiring.
-3. `firestore.rules` ni Firebase Console'da Publish qiling.
-4. GitHub'ga yuklang va Render'da qayta deploy qiling.
-
-Barcha korxonalar, xona narxlari, yig‘imlar, shablonlar va shartnomalar foydalanuvchining Firebase UID raqamiga bog‘langan holda saqlanadi.
+- barcha Firebase foydalanuvchilari uchun umumiy workspace va umumiy audit tarixi;
