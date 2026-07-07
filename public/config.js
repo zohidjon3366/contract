@@ -7,7 +7,7 @@ window.FIREBASE_CONFIG = {
   projectId: "contract-all-finance",
   storageBucket: "contract-all-finance.firebasestorage.app",
   messagingSenderId: "551079546898",
-  appId: ""1:551079546898:web:4d5da368ce82b205e848cb",
+  appId: "1:551079546898:web:4d5da368ce82b205e848cb",
   // Barcha Firebase foydalanuvchilari bir xil reestr va auditni ko‘rishi uchun umumiy ish maydoni.
   workspaceId: "all-finance-contract"
 };
