@@ -2,7 +2,7 @@
 <html lang="uz">
 <head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>ALL FINANCE CONTRACT FINAL v10.5</title>
+<title>ALL FINANCE CONTRACT FINAL v10.6</title>
 <style>
 :root{--bg:#f3f4fb;--panel:#fff;--panel2:#f8fafc;--ink:#172033;--muted:#637083;--line:#dbe3ef;--brand:#4647A4;--brand2:#31337F;--accent:#08B25F;--accent2:#059a54;--danger:#b42318;--warn:#b7791f;--shadow:0 20px 55px rgba(49,51,127,.14);--radius:24px}*{box-sizing:border-box}body{margin:0;font-family:Inter,Segoe UI,Arial,sans-serif;color:var(--ink);background:radial-gradient(circle at top left,#e9e8ff 0,#f7f9fd 38%,#f3f4fb 100%)}button,input,textarea,select{font:inherit}button{cursor:pointer}.app{display:grid;grid-template-columns:300px 1fr;min-height:100vh}.app.hidden{display:none}.side{background:linear-gradient(180deg,#4647A4,#31337F);color:white;padding:24px;position:sticky;top:0;height:100vh;overflow:auto}.brand{display:flex;gap:14px;align-items:center;margin-bottom:24px}.logo{width:56px;height:56px;border-radius:18px;background:rgba(255,255,255,.12);display:grid;place-items:center;font-weight:900;overflow:hidden;border:1px solid rgba(255,255,255,.18)}.logo img{width:100%;height:100%;object-fit:cover}.brand h1{font-size:18px;margin:0}.brand p{font-size:12px;color:#dbe8ff;margin:3px 0 0}.nav{display:grid;gap:8px}.nav button{border:0;background:transparent;color:#edf3ff;text-align:left;padding:12px 14px;border-radius:14px;font-weight:700}.nav button:hover,.nav button.active{background:rgba(255,255,255,.14);color:#fff}.hint{margin-top:20px;padding:14px;border-radius:16px;background:rgba(255,255,255,.10);color:#e7efff;font-size:12px;line-height:1.5}.main{padding:28px}.topbar{display:flex;justify-content:space-between;gap:16px;align-items:flex-start;margin-bottom:20px}.title h2{font-size:28px;margin:0}.title p{color:var(--muted);margin:6px 0 0}.actions,.inline{display:flex;gap:10px;flex-wrap:wrap;align-items:center}.btn{border:1px solid var(--line);background:#fff;color:var(--ink);border-radius:13px;padding:10px 14px;font-weight:750}.btn.primary{background:var(--brand);border-color:var(--brand);color:white}.btn.ok{background:#e9fbf2;color:#067647;border-color:#8fe0b5}.btn.danger{background:#fff3f2;color:var(--danger);border-color:#f6c7c3}.btn.small{padding:7px 10px;border-radius:10px;font-size:13px}.section{display:none}.section.active{display:block}.grid{display:grid;gap:16px}.grid.two{grid-template-columns:1fr 1fr}.grid.three{grid-template-columns:repeat(3,1fr)}.grid.four{grid-template-columns:repeat(4,1fr)}.split{display:grid;grid-template-columns:390px 1fr;gap:16px}.card{background:rgba(255,255,255,.92);backdrop-filter:blur(10px);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:20px}.card h3{margin:0 0 14px}.muted{color:var(--muted)}.field{display:grid;gap:7px;margin-bottom:13px}.field label{font-size:13px;font-weight:800;color:#344054}.field input,.field textarea,.field select{border:1px solid var(--line);border-radius:12px;background:white;padding:11px 12px;outline:none;color:var(--ink);width:100%}.field textarea{min-height:100px;line-height:1.45;resize:vertical}.field input:focus,.field textarea:focus,.field select:focus{border-color:#93c5fd;box-shadow:0 0 0 4px rgba(37,99,235,.10)}.tablebox{border:1px solid var(--line);border-radius:17px;overflow:auto;background:white}table{width:100%;border-collapse:separate;border-spacing:0}th,td{padding:10px;border-bottom:1px solid var(--line);font-size:14px;text-align:left;vertical-align:top}th{background:#f1f5f9;color:#334155;font-size:12px;text-transform:uppercase;letter-spacing:.04em}tr:last-child td{border-bottom:0}.kpi{border:1px solid var(--line);background:linear-gradient(135deg,#fff,#f8fbff);border-radius:20px;padding:18px}.kpi strong{font-size:27px;display:block}.kpi span{font-size:13px;color:var(--muted)}.pill,.tag{display:inline-flex;align-items:center;border-radius:999px;padding:5px 9px;font-size:12px;border:1px solid #cbc9ff;background:#f1f0ff;color:var(--brand2)}.pill.green{background:#ecfdf5;border-color:#bbf7d0;color:#047857}.pill.orange{background:#fff7ed;border-color:#fed7aa;color:#c2410c}.section-editor{border:1px solid var(--line);background:var(--panel2);border-radius:18px;padding:14px;margin-bottom:12px}.section-editor .head{display:flex;justify-content:space-between;gap:8px;align-items:center;margin-bottom:9px}.section-editor .num{background:#dbeafe;color:#1d4ed8;font-weight:900;border-radius:10px;padding:6px 9px}.empty{border:1px dashed #c9d0de;border-radius:18px;padding:24px;text-align:center;color:var(--muted);background:#f8fafc}.mono{font-family:ui-monospace,Consolas,monospace;font-size:12px}.subtle{border:1px dashed #cbd5e1;background:#f8fafc;border-radius:16px;padding:14px}.legal-preview{white-space:pre-line;background:#f8fafc;border:1px solid var(--line);border-radius:14px;padding:12px;font-size:13px;color:#334155}.toast{display:none;position:fixed;right:24px;bottom:24px;background:#0f172a;color:white;padding:12px 16px;border-radius:14px;box-shadow:var(--shadow);z-index:3500}.modal{display:none;position:fixed;inset:0;background:rgba(15,23,42,.60);z-index:900;padding:28px;overflow:auto}.modal.open{display:block}.modal .inner{max-width:1120px;margin:auto;background:#fff;border-radius:24px;padding:22px;box-shadow:var(--shadow)}.modalbar{display:flex;justify-content:space-between;gap:12px;align-items:center;margin-bottom:14px}.preview{border:1px solid var(--line);border-radius:18px;padding:24px;background:white;max-height:72vh;overflow:auto}.doc{font-family:"Times New Roman",Georgia,serif;color:#000;font-size:12pt;line-height:1.25;max-width:210mm;margin:0 auto;background:#fff}.doc h1{text-align:center;font-size:15pt;font-weight:700;text-transform:uppercase;letter-spacing:.2px;margin:0 135px 3mm}.doc h2{text-align:center;font-size:12pt;font-weight:700;margin:0 135px 5mm}.doc h3{font-size:12pt;font-weight:700;text-transform:uppercase;text-align:center;margin:5mm 0 2.5mm;page-break-after:avoid}.doc p{margin:0 0 2.3mm;text-align:justify}.doc p.clause{text-indent:12.5mm;margin-bottom:2.2mm}.doc .meta{display:flex;justify-content:space-between;font-weight:700;margin:3mm 0 5mm}.doc table{border-collapse:collapse;width:100%;margin:3mm 0 5mm;page-break-inside:auto}.doc tr{page-break-inside:avoid;page-break-after:auto}.doc th,.doc td{border:1px solid #000;padding:1.7mm 1.8mm;font-size:9.4pt;color:#000;line-height:1.15}.doc th{background:#f4f4f4;text-transform:none;letter-spacing:0;text-align:center;font-weight:700}.doc table.hotel-spec th,.doc table.hotel-spec td{font-size:7.7pt;padding:1.1mm 1mm;line-height:1.1}.doc .reqs{display:grid;grid-template-columns:1fr 1fr;gap:7mm;page-break-inside:avoid}.doc .req{border:1px solid #000;padding:3mm;min-height:44mm;white-space:pre-line;font-size:10.5pt;line-height:1.25}.doc .sign{display:grid;grid-template-columns:1fr 1fr;gap:12mm;margin-top:7mm;page-break-inside:avoid}.doc .center{text-align:center}.doc .right{text-align:right}.doc .doc-header{position:relative;min-height:25mm;display:flex;align-items:flex-start;justify-content:center}.doc .doc-title-block{width:100%;text-align:center}.doc .doc-logo-wrap{position:absolute;right:0;top:0;width:34mm;height:22mm;display:flex;align-items:flex-start;justify-content:flex-end}.doc .doc-logo{display:block!important;visibility:visible!important;max-width:34mm!important;max-height:22mm!important;width:auto!important;height:auto!important;object-fit:contain!important;-webkit-print-color-adjust:exact;print-color-adjust:exact}.tourist-fee-toggle{margin:2px 0 14px;padding:10px 12px;border:1px solid #d8def0;border-radius:12px;background:#f8f9ff;font-weight:700;color:#38406d}.tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}.tabs button{border:1px solid var(--line);background:#fff;border-radius:999px;padding:8px 12px}.tabs button.active{background:#0f172a;color:#fff}.nowrap{white-space:nowrap}.template-card{display:grid;gap:8px}.help{font-size:13px;color:var(--muted);line-height:1.5}.login-screen{position:fixed;inset:0;z-index:2000;background:linear-gradient(180deg,#4647A4 0%,#31337F 100%);display:flex;align-items:center;justify-content:center;padding:24px}.login-screen.hidden{display:none}.login-card{width:min(440px,100%);background:rgba(255,255,255,.96);border-radius:28px;padding:28px;box-shadow:0 30px 80px rgba(14,17,61,.35)}.login-brand{display:flex;align-items:center;gap:16px;margin-bottom:18px}.login-brand img{width:74px;height:74px;border-radius:22px;object-fit:cover}.login-card h2{margin:0 0 6px;color:var(--brand2)}.login-card p{margin:0 0 18px;color:var(--muted)}.login-note{margin-top:14px;padding:12px 14px;border-radius:14px;background:#f4f5ff;color:#3c3f98;font-size:13px}.top-user{display:flex;align-items:center;gap:10px;padding:10px 14px;border-radius:999px;background:#f3f4ff;border:1px solid #d6d7ff;color:var(--brand2);font-weight:700}.logo-preview{display:flex;align-items:center;gap:12px;margin-top:8px}.logo-preview img{width:64px;height:64px;object-fit:contain;border:1px solid var(--line);border-radius:14px;padding:6px;background:#fff}.doc-head{position:relative}.doc-head.compact{margin-bottom:8px}.doc-head-right{text-align:right;font-size:10pt}.muted-mini{font-size:12px;color:var(--muted)}
 .tax-panel{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:10px 0 2px;padding:11px 13px;border:1px solid #d8dcff;background:linear-gradient(135deg,#f7f7ff,#f0fff7);border-radius:14px;font-size:13px}.tax-panel strong{color:var(--brand2)}.tax-badge{display:inline-flex;align-items:center;border-radius:999px;padding:5px 9px;font-size:12px;font-weight:800}.tax-badge.vat{background:#eafbf2;color:#067647;border:1px solid #9fe2bd}.tax-badge.nonvat{background:#fff4ed;color:#b54708;border:1px solid #f7c9aa}.addendum-row.active-row{background:#f0fdf4}.addendum-summary{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:10px 0}.addendum-summary>div{border:1px solid var(--line);border-radius:14px;padding:10px;background:#f8fafc}.addendum-summary span{display:block;font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.04em}.addendum-summary b{font-size:16px}.change-preview{border:1px dashed #a5b4fc;background:#f7f7ff;border-radius:14px;padding:13px;line-height:1.55}.legal-note{font-size:12px;color:#5b6474;line-height:1.5;background:#f8fafc;border-left:4px solid var(--brand);padding:10px 12px;border-radius:0 12px 12px 0}.registry-inn{font-size:11px;color:var(--muted)}.effective-amount{font-weight:850;color:#067647}.base-amount{text-decoration:line-through;color:#98a2b3;font-size:11px}.addendum-chip{display:inline-flex;align-items:center;gap:5px;border:1px solid #c7d7fe;background:#eff6ff;color:#3448a5;border-radius:999px;padding:4px 8px;font-size:11px;font-weight:800;margin-top:5px}.vat-note{font-size:12px;color:#475467;margin-top:5px}.field[hidden]{display:none!important}.page-break-before{break-before:page;page-break-before:always}
@@ -927,16 +927,350 @@ tr:hover td{background:#f8fbff!important}
 }
 /* ================= END FINAL v10.5 ================= */
 
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap');
+
+/* ================= FINAL v10.6: NEUTRAL MODERN DESIGN ================= */
+:root{
+  --bg:#F5F6F8;
+  --panel:#FFFFFF;
+  --panel-soft:#FAFBFC;
+  --ink:#202B36;
+  --ink-2:#374553;
+  --muted:#71808F;
+  --line:#DDE2E8;
+  --line-strong:#C9D0D8;
+  --accent:#C96B4B;
+  --accent-soft:#F9EEE9;
+  --accent-2:#506275;
+  --accent-2-soft:#EEF2F5;
+  --success:#2F7A62;
+  --success-soft:#EAF5F1;
+  --danger:#B94A48;
+  --danger-soft:#FBEDED;
+  --warning:#9B6B20;
+  --warning-soft:#FBF3E5;
+  --shadow:0 12px 34px rgba(32,43,54,.07);
+  --shadow-hover:0 16px 40px rgba(32,43,54,.10);
+  --radius:18px;
+}
+
+html,body,button,input,textarea,select{
+  font-family:"DM Sans","Segoe UI Variable","Segoe UI",Arial,sans-serif!important;
+}
+h1,h2,h3,h4,.title,.brand,.page-banner{
+  font-family:"Plus Jakarta Sans","DM Sans","Segoe UI",Arial,sans-serif!important;
+}
+html,body{
+  color:var(--ink)!important;
+}
+body{
+  background:
+    radial-gradient(circle at 10% 4%, rgba(201,107,75,.045), transparent 22%),
+    radial-gradient(circle at 90% 92%, rgba(80,98,117,.05), transparent 25%),
+    linear-gradient(180deg,#F8F9FA 0%,#F3F5F7 100%)!important;
+}
+
+/* Faint background watermark */
+body::after{
+  content:"";
+  position:fixed;
+  right:4vw;
+  bottom:3vh;
+  width:min(34vw,460px);
+  height:min(34vw,460px);
+  background:url("app_mark.svg") center/contain no-repeat;
+  opacity:.028;
+  filter:grayscale(1);
+  pointer-events:none;
+  z-index:-1;
+}
+
+/* Sidebar */
+.app{grid-template-columns:228px minmax(0,1fr)!important}
+.side{
+  background:rgba(250,251,252,.96)!important;
+  color:var(--ink)!important;
+  border-right:1px solid var(--line)!important;
+  box-shadow:4px 0 24px rgba(32,43,54,.045)!important;
+}
+.brand{
+  padding:8px 8px 16px!important;
+  border-bottom:1px solid var(--line)!important;
+  align-items:center!important;
+}
+.logo{
+  width:38px!important;
+  height:38px!important;
+  border:0!important;
+  border-radius:12px!important;
+  background:transparent!important;
+  box-shadow:none!important;
+}
+.logo img{
+  width:100%!important;
+  height:100%!important;
+  padding:0!important;
+  object-fit:contain!important;
+}
+.brand h1{
+  color:var(--ink)!important;
+  font-size:13px!important;
+  line-height:1.18!important;
+  font-weight:800!important;
+  letter-spacing:-.02em!important;
+}
+.brand p{
+  color:var(--muted)!important;
+  font-size:9.5px!important;
+  font-weight:600!important;
+}
+.nav button{
+  color:var(--ink-2)!important;
+  background:transparent!important;
+  border:1px solid transparent!important;
+}
+.nav button .nav-icon{
+  background:#EEF1F4!important;
+  color:#526171!important;
+}
+.nav button:hover{
+  color:var(--ink)!important;
+  background:#F3F5F7!important;
+  border-color:#E5E9ED!important;
+}
+.nav button.active{
+  color:var(--ink)!important;
+  background:#FFFFFF!important;
+  border-color:#DCE1E7!important;
+  box-shadow:0 6px 18px rgba(32,43,54,.065)!important;
+}
+.nav button.active::before{
+  background:var(--accent)!important;
+}
+.nav button.active .nav-icon{
+  color:#7A3D29!important;
+  background:var(--accent-soft)!important;
+}
+.hint{
+  color:#5F6C79!important;
+  background:#F4F6F8!important;
+  border:1px solid #E4E8EC!important;
+}
+
+/* Top bar */
+.topbar{
+  background:rgba(248,249,250,.91)!important;
+  border-bottom:1px solid var(--line)!important;
+  backdrop-filter:blur(14px);
+}
+.title h2{color:var(--ink)!important}
+.title p{color:var(--muted)!important}
+.top-user{
+  color:var(--ink-2)!important;
+  background:#FFFFFF!important;
+  border-color:var(--line)!important;
+}
+#cloudStatus{
+  color:#235E4B!important;
+  background:var(--success-soft)!important;
+  border-color:#CDE7DC!important;
+}
+
+/* No white text anywhere in UI controls */
+.btn,
+.btn.primary,
+.btn.ok,
+.btn.danger,
+.zoom-control button,
+.menu-toggle,
+.tag,.pill,.status-badge,.rate-status,
+.banner-pills span{
+  color:var(--ink)!important;
+}
+.btn{
+  background:#FFFFFF!important;
+  border-color:var(--line)!important;
+}
+.btn.primary{
+  background:var(--accent-soft)!important;
+  border-color:#E8C7BB!important;
+  color:#6B3524!important;
+  box-shadow:0 7px 18px rgba(201,107,75,.09)!important;
+}
+.btn.ok{
+  background:var(--success-soft)!important;
+  color:#245E4D!important;
+  border-color:#CBE6DB!important;
+}
+.btn.danger{
+  background:var(--danger-soft)!important;
+  color:#843A38!important;
+  border-color:#EBCBCB!important;
+}
+.btn:hover{
+  border-color:var(--line-strong)!important;
+  box-shadow:0 8px 18px rgba(32,43,54,.08)!important;
+}
+.zoom-control{
+  background:#FFFFFF!important;
+  border-color:var(--line)!important;
+}
+.zoom-control .zoom-btn,.zoom-control .zoom-value{
+  color:var(--ink-2)!important;
+  background:#F4F6F8!important;
+}
+.zoom-control .zoom-fit{
+  color:#245E4D!important;
+  background:var(--success-soft)!important;
+}
+
+/* Cards and banners */
+.card,.kpi,.login-card,.modal .inner,.tablebox,.preview,
+.subtle,.filter-strip,.tax-panel,.legal-preview,.rate-info{
+  background:rgba(255,255,255,.95)!important;
+  border:1px solid var(--line)!important;
+  box-shadow:var(--shadow)!important;
+}
+.card:hover,.kpi:hover{box-shadow:var(--shadow-hover)!important}
+.page-banner{
+  background:linear-gradient(135deg,#FFFFFF 0%,#F7F8FA 60%,#F4F1EF 100%)!important;
+  border:1px solid var(--line)!important;
+  box-shadow:var(--shadow)!important;
+}
+.page-banner h2,.page-banner h3{color:var(--ink)!important}
+.page-banner p{color:var(--muted)!important}
+.eyebrow,.card-kicker{
+  color:#8B513D!important;
+}
+.banner-pills span{
+  color:var(--ink-2)!important;
+  background:#F2F4F6!important;
+  border:1px solid #E2E6EA!important;
+}
+.banner-mark{
+  color:#506275!important;
+  background:#F3F5F7!important;
+  border-color:#E1E5E9!important;
+}
+.soft-icon{
+  color:#506275!important;
+  background:var(--accent-2-soft)!important;
+  border:1px solid #DDE3E8!important;
+}
+
+/* Forms */
+.field label{color:#465361!important}
+.field input,.field textarea,.field select{
+  color:var(--ink)!important;
+  background:#FCFDFE!important;
+  border-color:var(--line)!important;
+}
+.field input::placeholder,.field textarea::placeholder{
+  color:#9AA5AF!important;
+}
+.field input:focus,.field textarea:focus,.field select:focus{
+  border-color:#9EA9B4!important;
+  box-shadow:0 0 0 4px rgba(80,98,117,.09)!important;
+}
+
+/* Tables */
+.tablebox{background:#FFFFFF!important}
+th{
+  color:#5B6774!important;
+  background:#F3F5F7!important;
+}
+td{color:var(--ink-2)!important}
+tr:nth-child(even) td{background:#FBFCFD!important}
+tr:hover td{background:#F7F9FA!important}
+
+/* Status colors */
+.pill,.tag,.status-badge,.rate-status{
+  color:var(--ink-2)!important;
+  background:#F3F5F7!important;
+  border-color:#E1E5E9!important;
+}
+.pill.green,.status-badge.issued,.status-badge.closed,.rate-status.active{
+  color:#275E4D!important;
+  background:var(--success-soft)!important;
+  border-color:#C9E5DA!important;
+}
+.status-badge.draft,.rate-status.future{
+  color:#705622!important;
+  background:var(--warning-soft)!important;
+  border-color:#EDD9B5!important;
+}
+.status-badge.open,.rate-status.invalid{
+  color:#843A38!important;
+  background:var(--danger-soft)!important;
+  border-color:#EBCBCB!important;
+}
+
+/* Login */
+.login-screen{
+  background:linear-gradient(145deg,#F7F8FA 0%,#EEF1F4 100%)!important;
+}
+.login-card{
+  background:#FFFFFF!important;
+}
+.login-brand img{
+  width:44px!important;
+  height:44px!important;
+  object-fit:contain!important;
+  border:0!important;
+  padding:0!important;
+  background:transparent!important;
+}
+.login-card h2{
+  color:var(--ink)!important;
+  font-weight:800!important;
+}
+.login-card p,.login-note{color:var(--muted)!important}
+.login-note{
+  background:#F4F6F8!important;
+  border:1px solid #E3E7EB!important;
+}
+
+/* Modal and print preview UI */
+.modal{background:rgba(43,53,64,.32)!important}
+.modalbar,.modalbar *{color:var(--ink)!important}
+.menu-toggle{
+  color:var(--ink)!important;
+  background:#FFFFFF!important;
+  border-color:var(--line)!important;
+}
+
+/* Defensive override: avoid invisible white text in app chrome */
+.app .side,
+.app .side *,
+.app .topbar,
+.app .topbar *,
+.app .card,
+.app .card *,
+.login-screen,
+.login-screen *{
+  text-shadow:none!important;
+}
+.app :is(button,a,label,span,div,p,h1,h2,h3,h4,td,th,strong,small){
+  --safe-text:var(--ink);
+}
+@media(max-width:900px){
+  .side{
+    background:rgba(250,251,252,.99)!important;
+  }
+}
+/* ================= END FINAL v10.6 ================= */
+
 </style>
 </head>
 <body>
-<div class="login-screen" id="loginScreen"><div class="login-card"><div class="login-brand"><img src="all_finance_full_logo.png" alt="All Finance"><div><h2>ALL FINANCE CONTRACT</h2><p>Login orqali kirish</p></div></div><div class="field"><label>Login (email)</label><input id="loginUser" type="email" placeholder="admin@company.uz" autocomplete="username"></div><div class="field"><label>Parol</label><input id="loginPass" type="password" placeholder="Parol" autocomplete="current-password"></div><div class="inline"><button class="btn primary" id="loginButton" onclick="loginSubmit()">Kirish</button><button class="btn" onclick="resetPassword()">Parolni tiklash</button></div><div id="loginError" style="display:none;margin-top:12px;padding:11px 13px;border-radius:12px;background:#fff1f0;border:1px solid #f5b7b1;color:#9f1c14;font-size:13px;line-height:1.45"></div><div id="loginStatus" style="margin-top:10px;color:#5d6780;font-size:13px"></div><div class="login-note">Kirish Firebase Authentication orqali tekshiriladi. Foydalanuvchini Firebase Console → Authentication → Users bo‘limida yarating.</div></div></div><div class="app hidden" id="appRoot"><aside class="side"><div class="brand"><div class="logo"><img src="all_finance_icon.png" alt="All Finance"></div><div><h1>ALL FINANCE CONTRACT</h1><p>Firebase Cloud • FINAL v10.5</p></div></div><div class="nav" id="nav"></div><div class="hint">Dizayn All Finance logotipi ranglariga moslashtirildi. Korxona logotipi ixtiyoriy yuklanadi va shartnoma o‘ng yuqori burchagida ko‘rinishi mumkin.</div></aside><div class="side-overlay" onclick="toggleSidebar(false)"></div><main class="main"><div class="topbar"><button class="btn menu-toggle" type="button" aria-label="Menyuni ochish" onclick="toggleSidebar()">☰</button><div class="title"><h2 id="pageTitle">Bosh sahifa</h2><p id="pageSubtitle">Tayyor shartnomalar platformasi</p></div><div class="actions"><div class="top-user"><span id="currentUserBadge">—</span></div><div class="top-user" id="cloudStatus">Firebase: ulanmoqda</div><div class="zoom-control" title="Platforma masshtabi">
+<div class="login-screen" id="loginScreen"><div class="login-card"><div class="login-brand"><img src="app_mark.svg" alt="Platform mark"><div><h2>ALL FINANCE CONTRACT</h2><p>Login orqali kirish</p></div></div><div class="field"><label>Login (email)</label><input id="loginUser" type="email" placeholder="admin@company.uz" autocomplete="username"></div><div class="field"><label>Parol</label><input id="loginPass" type="password" placeholder="Parol" autocomplete="current-password"></div><div class="inline"><button class="btn primary" id="loginButton" onclick="loginSubmit()">Kirish</button><button class="btn" onclick="resetPassword()">Parolni tiklash</button></div><div id="loginError" style="display:none;margin-top:12px;padding:11px 13px;border-radius:12px;background:#fff1f0;border:1px solid #f5b7b1;color:#9f1c14;font-size:13px;line-height:1.45"></div><div id="loginStatus" style="margin-top:10px;color:#5d6780;font-size:13px"></div><div class="login-note">Kirish Firebase Authentication orqali tekshiriladi. Foydalanuvchini Firebase Console → Authentication → Users bo‘limida yarating.</div></div></div><div class="app hidden" id="appRoot"><aside class="side"><div class="brand"><div class="logo"><img src="app_mark.svg" alt="Platform mark"></div><div><h1>ALL FINANCE CONTRACT</h1><p>Firebase Cloud • FINAL v10.6</p></div></div><div class="nav" id="nav"></div><div class="hint">Dizayn All Finance logotipi ranglariga moslashtirildi. Korxona logotipi ixtiyoriy yuklanadi va shartnoma o‘ng yuqori burchagida ko‘rinishi mumkin.</div></aside><div class="side-overlay" onclick="toggleSidebar(false)"></div><main class="main"><div class="topbar"><button class="btn menu-toggle" type="button" aria-label="Menyuni ochish" onclick="toggleSidebar()">☰</button><div class="title"><h2 id="pageTitle">Bosh sahifa</h2><p id="pageSubtitle">Tayyor shartnomalar platformasi</p></div><div class="actions"><div class="top-user"><span id="currentUserBadge">—</span></div><div class="top-user" id="cloudStatus">Firebase: ulanmoqda</div><div class="zoom-control" title="Platforma masshtabi">
 <button class="zoom-btn" type="button" onclick="changeUiZoom(-10)" aria-label="Uzoqlashtirish">−</button>
 <button class="zoom-value" id="uiZoomLabel" type="button" onclick="resetUiZoom()" title="100% ga qaytarish">100%</button>
 <button class="zoom-btn" type="button" onclick="changeUiZoom(10)" aria-label="Yaqinlashtirish">+</button>
 <button class="zoom-fit" type="button" onclick="fitUiToScreen()">Ekranga mos</button>
 </div><button class="btn" onclick="manualCloudLoad()">Bulutdan yangilash</button><button class="btn ok" onclick="manualCloudSave()">Bulutga saqlash</button><button class="btn" onclick="backup()">Backup</button><label class="btn">Restore <input type="file" accept="application/json" style="display:none" onchange="restore(event)"></label><button class="btn ok" onclick="mergeSeedTemplates()">Standart shablonlarni qo‘shish</button><button class="btn danger" onclick="resetDemo()">Demo qayta yuklash</button><button class="btn" onclick="logoutApp()">Chiqish</button></div></div>
-<section id="dashboard" class="section active"><div class="page-banner"><div><span class="eyebrow">ALL FINANCE CONTRACT</span><h2>Shartnomalar va moliyaviy hujjatlar boshqaruvi</h2><p>Tashkilotlar bo‘yicha tariflar, shartnomalar, schetlar, schet-fakturalar va ijro holatini yagona tizimda nazorat qiling.</p><div class="banner-pills"><span>Firebase Cloud</span><span>Tarif davrlari</span><span>Reestr va audit</span></div></div><div class="banner-mark"><img src="all_finance_logo.jpg" alt="All Finance"></div></div><div class="grid four dashboard-kpis" id="kpis"></div><div class="card dashboard-card" style="margin-top:16px"><div class="inline" style="justify-content:space-between"><div><span class="card-kicker">SO‘NGGI FAOLLIK</span><h3 style="margin:4px 0">So‘nggi shartnomalar</h3><div class="muted">Shartnomalar va moliyaviy hujjatlar holati</div></div><span class="pill green" id="dashboardSyncStatus">Firebase holati tekshirilmoqda</span></div><div class="tablebox premium-table" id="recentContracts" style="margin-top:14px"></div></div></section>
+<section id="dashboard" class="section active"><div class="page-banner"><div><span class="eyebrow">ALL FINANCE CONTRACT</span><h2>Shartnomalar va moliyaviy hujjatlar boshqaruvi</h2><p>Tashkilotlar bo‘yicha tariflar, shartnomalar, schetlar, schet-fakturalar va ijro holatini yagona tizimda nazorat qiling.</p><div class="banner-pills"><span>Firebase Cloud</span><span>Tarif davrlari</span><span>Reestr va audit</span></div></div><div class="banner-mark"><img src="app_mark.svg" alt="Platform mark"></div></div><div class="grid four dashboard-kpis" id="kpis"></div><div class="card dashboard-card" style="margin-top:16px"><div class="inline" style="justify-content:space-between"><div><span class="card-kicker">SO‘NGGI FAOLLIK</span><h3 style="margin:4px 0">So‘nggi shartnomalar</h3><div class="muted">Shartnomalar va moliyaviy hujjatlar holati</div></div><span class="pill green" id="dashboardSyncStatus">Firebase holati tekshirilmoqda</span></div><div class="tablebox premium-table" id="recentContracts" style="margin-top:14px"></div></div></section>
 <section id="companies" class="section"><div class="split"><div class="card"><h3>Korxona / tomon rekvizitlari</h3><input type="hidden" id="companyId"><div class="grid two"><div class="field"><label>Roli</label><select id="companyRole"><option value="hotel">Mehmonxona / Ijrochi</option><option value="client">Buyurtmachi / mijoz</option><option value="seller">Sotuvchi / Yetkazib beruvchi</option><option value="buyer">Xaridor</option><option value="all">Barchasi</option></select></div><div class="field"><label>Nomi</label><input id="companyName"></div></div><div class="grid two"><div class="field"><label>STIR / INN</label><input id="companyInn"></div><div class="field"><label>Rahbar F.I.Sh.</label><input id="companyDirector"></div></div><div class="grid two"><div class="field"><label>Lavozim</label><input id="companyPosition" value="Директор"></div><div class="field"><label>Asos hujjat</label><input id="companyBasis" value="Устава"></div></div><div class="field"><label>Yuridik manzil</label><textarea id="companyAddress"></textarea></div><div class="grid two"><div class="field"><label>Bank</label><input id="companyBank"></div><div class="field"><label>MFO</label><input id="companyMfo"></div></div><div class="grid two"><div class="field"><label>Hisob raqam UZS</label><input id="companyAccountUzs"></div><div class="field"><label>Valyuta hisob raqam</label><input id="companyAccountCurrency"></div></div><div class="grid two"><div class="field"><label>SWIFT</label><input id="companySwift"></div><div class="field"><label>OKED</label><input id="companyOked"></div></div><div class="grid two"><div class="field"><label>Soliq turi</label><select id="companyTaxType" onchange="toggleCompanyTaxFields()"><option value="vat">QQS to‘lovchi</option><option value="nonvat">QQS to‘lovchi emas</option></select></div><div class="field" id="companyVatRateWrap"><label>Asosiy QQS stavkasi</label><select id="companyDefaultVatRate"><option value="12">12%</option><option value="6">6%</option><option value="0">0%</option></select></div></div><div class="grid two"><div class="field"><label>QQS ro‘yxat raqami / PINFL / qo‘shimcha</label><input id="companyVatNumber"></div><div class="field"><label>Telefon</label><input id="companyPhone"></div></div><div class="field"><label>Email</label><input id="companyEmail"></div><input type="hidden" id="companyLogoData"><div class="field"><label>Korxona logotipi (ixtiyoriy)</label><input id="companyLogoFile" type="file" accept="image/*" onchange="loadCompanyLogo(event)"><div class="logo-preview"><img id="companyLogoPreview" src="all_finance_logo.jpg" alt="Logo"><div class="muted-mini">Shartnomaning o‘ng yuqori burchagida ko‘rsatish uchun.</div></div></div><div class="inline"><button class="btn primary" onclick="saveCompany()">Saqlash</button><button class="btn" onclick="clearCompanyForm()">Tozalash</button></div></div><div class="card"><h3>Rekvizitlar ro‘yxati</h3><div class="tablebox" id="companiesTable"></div></div></div></section>
 <section id="settings" class="section">
 <div class="page-banner compact-banner"><div><span class="eyebrow">TARIFLAR BOSHQARUVI</span><h3>Tashkilotlar bo‘yicha xona narxlari va turistik yig‘imlar</h3><p>Har bir mehmonxona uchun alohida tarif, QQS va amal qilish davrini belgilang. Bir xil xona turi uchun turli davrlarda turli narxlar saqlanishi mumkin.</p></div><div class="banner-icon">₸</div></div>
@@ -1077,7 +1411,25 @@ document.addEventListener('keydown',e=>{
   if(e.key==='Escape')toggleSidebar(false);
 });
 
-async function init(){initUiZoom();renderNav();$('hDate').value=today();$('sDate').value=today();$('hNumber').value='H-'+new Date().getFullYear()+'-'+String(state.contracts.length+1).padStart(3,'0');$('sNumber').value='S-'+new Date().getFullYear()+'-'+String(state.contracts.length+1).padStart(3,'0');clearTemplateForm();clearCompanyForm();renderAll();await initAuth()}function renderNav(){const icons={dashboard:'⌂',companies:'▦',settings:'₸',templates:'▤',hotel:'H',sale:'◈',register:'≡',invoices:'₽',facturas:'ƒ',audit:'↺',addendums:'＋',archive:'▣'};$('nav').innerHTML=Object.entries(PAGES).map(([k,v])=>`<button id="nav_${k}" onclick="showSection('${k}')"><span class="nav-icon">${icons[k]||'•'}</span><span>${v[0]}</span></button>`).join('')}function showSection(id){document.querySelectorAll('.section').forEach(x=>x.classList.remove('active'));$(id).classList.add('active');document.querySelectorAll('.nav button').forEach(x=>x.classList.remove('active'));$('nav_'+id).classList.add('active');$('pageTitle').textContent=PAGES[id][0];$('pageSubtitle').textContent=PAGES[id][1];renderAll();if(window.innerWidth<=900)toggleSidebar(false)}function renderAll(){renderKpis();renderCompanies();renderRooms();renderFees();renderTemplates();renderSelects();renderArchive();renderRecentContracts();renderGuests();renderProducts();calcHotelTotals();calcSaleTotals()}function renderKpis(){$('kpis').innerHTML=[['Korxonalar',state.companies.length],['Shablonlar',state.templates.length],['Hotel shartnomalar',state.contracts.filter(x=>x.kind==='hotel'||x.kind==='addendum').length],['Oldi-sotdi',state.contracts.filter(x=>x.kind==='sale').length]].map(x=>`<div class="kpi"><span>${x[0]}</span><strong>${x[1]}</strong></div>`).join('')}
+async function init(){initUiZoom();renderNav();$('hDate').value=today();$('sDate').value=today();$('hNumber').value='H-'+new Date().getFullYear()+'-'+String(state.contracts.length+1).padStart(3,'0');$('sNumber').value='S-'+new Date().getFullYear()+'-'+String(state.contracts.length+1).padStart(3,'0');clearTemplateForm();clearCompanyForm();renderAll();await initAuth()}function renderNav(){
+const icons={
+dashboard:'<svg viewBox="0 0 24 24"><path d="M4 13h6V4H4v9Zm0 7h6v-5H4v5Zm10 0h6v-9h-6v9Zm0-16v5h6V4h-6Z"/></svg>',
+companies:'<svg viewBox="0 0 24 24"><path d="M4 21V7l8-4 8 4v14H4Zm4-3h2v-3H8v3Zm0-6h2V9H8v3Zm6 6h2v-3h-2v3Zm0-6h2V9h-2v3Z"/></svg>',
+settings:'<svg viewBox="0 0 24 24"><path d="M4 18h4v2H4v-2Zm0-7h10v2H4v-2Zm0-7h16v2H4V4Zm12 13h4v4h-4v-4Zm-4-7h4v4h-4v-4Zm4-7h4v4h-4V3Z"/></svg>',
+templates:'<svg viewBox="0 0 24 24"><path d="M5 3h10l4 4v14H5V3Zm9 1.5V8h3.5L14 4.5ZM8 12h8v-2H8v2Zm0 4h8v-2H8v2Zm0 4h6v-2H8v2Z"/></svg>',
+hotel:'<svg viewBox="0 0 24 24"><path d="M3 20V5h8v4h10v11h-2v-2H5v2H3Zm2-4h14v-5H5v5Zm2-7h2V7H7v2Z"/></svg>',
+sale:'<svg viewBox="0 0 24 24"><path d="m4 4 2-2h12l2 2v16H4V4Zm2 2v12h12V6H6Zm2 3h8v2H8V9Zm0 4h6v2H8v-2Z"/></svg>',
+register:'<svg viewBox="0 0 24 24"><path d="M5 3h14v18H5V3Zm3 4h8V5H8v2Zm0 4h8V9H8v2Zm0 4h8v-2H8v2Zm0 4h5v-2H8v2Z"/></svg>',
+invoices:'<svg viewBox="0 0 24 24"><path d="M6 2h12v20l-3-2-3 2-3-2-3 2V2Zm3 5h6V5H9v2Zm0 4h6V9H9v2Zm0 4h6v-2H9v2Z"/></svg>',
+facturas:'<svg viewBox="0 0 24 24"><path d="M4 3h16v18H4V3Zm3 4h10V5H7v2Zm0 4h4V9H7v2Zm6 0h4V9h-4v2Zm-6 4h4v-2H7v2Zm6 0h4v-2h-4v2Zm-6 4h10v-2H7v2Z"/></svg>',
+audit:'<svg viewBox="0 0 24 24"><path d="M12 3a9 9 0 1 1-8.49 6H6.7A6 6 0 1 0 12 6V3Zm-1 5h2v5l4 2-1 1.7-5-2.7V8Z"/></svg>',
+addendums:'<svg viewBox="0 0 24 24"><path d="M5 3h10l4 4v14H5V3Zm8 2v4h4l-4-4ZM8 13h3v-3h2v3h3v2h-3v3h-2v-3H8v-2Z"/></svg>',
+archive:'<svg viewBox="0 0 24 24"><path d="M4 4h16v5H4V4Zm2 7h12v9H6v-9Zm3 2v2h6v-2H9Z"/></svg>'
+};
+$('nav').innerHTML=Object.entries(PAGES).map(([k,v])=>`<button id="nav_${k}" onclick="showSection('${k}')"><span class="nav-icon">${icons[k]||icons.templates}</span><span>${v[0]}</span></button>`).join('');
+document.querySelectorAll('.nav-icon svg').forEach(svg=>{svg.setAttribute('width','15');svg.setAttribute('height','15');svg.setAttribute('fill','currentColor')});
+}
+function showSection(id){document.querySelectorAll('.section').forEach(x=>x.classList.remove('active'));$(id).classList.add('active');document.querySelectorAll('.nav button').forEach(x=>x.classList.remove('active'));$('nav_'+id).classList.add('active');$('pageTitle').textContent=PAGES[id][0];$('pageSubtitle').textContent=PAGES[id][1];renderAll();if(window.innerWidth<=900)toggleSidebar(false)}function renderAll(){renderKpis();renderCompanies();renderRooms();renderFees();renderTemplates();renderSelects();renderArchive();renderRecentContracts();renderGuests();renderProducts();calcHotelTotals();calcSaleTotals()}function renderKpis(){$('kpis').innerHTML=[['Korxonalar',state.companies.length],['Shablonlar',state.templates.length],['Hotel shartnomalar',state.contracts.filter(x=>x.kind==='hotel'||x.kind==='addendum').length],['Oldi-sotdi',state.contracts.filter(x=>x.kind==='sale').length]].map(x=>`<div class="kpi"><span>${x[0]}</span><strong>${x[1]}</strong></div>`).join('')}
 function mergeSeedTemplates(){let added=0;SEED_TEMPLATES.forEach(t=>{if(!state.templates.some(x=>x.id===t.id)){state.templates.push(JSON.parse(JSON.stringify(t)));added++}});SEED_COMPANIES.forEach(c=>{if(!state.companies.some(x=>x.id===c.id)){state.companies.push(JSON.parse(JSON.stringify(c)))}});SEED_ROOMS.forEach(r=>{if(!state.rooms.some(x=>x.id===r.id)){state.rooms.push(JSON.parse(JSON.stringify(r)))}});SEED_FEES.forEach(f=>{if(!state.fees.some(x=>x.id===f.id)){state.fees.push(JSON.parse(JSON.stringify(f)))}});save();renderAll();toast(added?added+' ta shablon qo‘shildi':'Barcha standart shablonlar bor')}
 function resetDemo(){if(confirm('Barcha ma’lumotlar standart demo holatiga qaytarilsinmi?')){state=defaultState();workingGuests=[];workingProducts=[];save();init();toast('Demo qayta yuklandi')}}function backup(){const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([JSON.stringify(state,null,2)],{type:'application/json'}));a.download='all_finance_contract_FINAL_v9_backup.json';a.click()}function restore(e){const f=e.target.files[0];if(!f)return;const r=new FileReader();r.onload=()=>{try{state=JSON.parse(r.result);state.seedVersion=90;save();renderAll();toast('Restore qilindi')}catch(err){toast('JSON xato')}};r.readAsText(f)}
 function companyLegal(c){if(!c)return '';let lines=[c.name,c.address?'Адрес: '+c.address:'',c.bank?'Банк: '+c.bank:'',c.accountUzs?'Р/с: '+c.accountUzs:'',c.accountCurrency?'Валютный счет: '+c.accountCurrency:'',c.inn?'ИНН: '+c.inn:'',c.mfo?'МФО: '+c.mfo:'',c.swift?'SWIFT: '+c.swift:'',c.oked?'ОКЭД: '+c.oked:'',c.vatNumber?c.vatNumber:'',c.phone?'Тел: '+c.phone:'',c.email?'Email: '+c.email:'',c.director?(c.position||'')+' '+c.director:''];return lines.filter(Boolean).join('\n')}function roleOk(c,roles){return roles.includes(c.role)||c.role==='all'}
