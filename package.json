@@ -1,8 +1,8 @@
 {
   "name": "all-finance-contract-platform",
-  "version": "8.3.0",
+  "version": "9.0.0",
   "private": true,
-  "description": "Firebase Auth va Firestore bilan ishlaydigan shartnoma platformasi. Zero-dependency Node static server.",
+  "description": "ALL FINANCE CONTRACT FINAL v9.0",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
