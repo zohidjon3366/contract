@@ -1,6 +1,4 @@
-# ALL FINANCE CONTRACT FINAL v10.0
-
-# ALL FINANCE CONTRACT — FINAL v9.0
+# ALL FINANCE SHARTNOMA — FINAL v10.13
 
 ## Final versiyadagi asosiy imkoniyatlar
 
@@ -39,3 +37,12 @@ Qo‘shimcha kelishuv shabloni umumiy xo‘jalik shartnomalari uchun tuzilgan. M
 ## FINAL v10.9 dizayni
 
 Interfeys rasmiy davlat portallari ruhidagi Presidential Premium uslubiga o‘tkazildi. Yangi Manrope va Roboto Condensed shriftlari, ko‘k-oq-yashil ranglar, aniq ko‘rinadigan O‘zbekiston bayrog‘i foni va yangilangan moliyaviy bannerlar qo‘llanildi.
+
+
+## FINAL v10.13 — Modern Luxury Premium
+
+- Minimalistik v10.12 ko‘rinishi o‘rniga boyroq zamonaviy premium dizayn qo‘llanildi.
+- Asosiy shrift: Manrope. Sarlavha va navigatsiya: Montserrat.
+- Menyu, slider, kartalar, jadvallar, formalar va ichki bo‘limlar yumaloq shakl, premium gradient va chuqur soyalar bilan yangilandi.
+- “Yangi schet”, “Yangi schet-faktura” va “Yangi qo‘shimcha kelishuv” oynalarining ko‘rinishi tuzatildi.
+- Modal oynalar eng yuqori qatlamda ochiladi, matnlar va kiritish maydonlari aniq ko‘rinadi.

@@ -1,8 +1,8 @@
 {
   "name": "all-finance-shartnoma-platform",
-  "version": "10.12.0",
+  "version": "10.13.0",
   "private": true,
-  "description": "ALL FINANCE SHARTNOMA FINAL v10.12 minimal presidential portal interface",
+  "description": "ALL FINANCE SHARTNOMA FINAL v10.13 modern luxury premium interface",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
