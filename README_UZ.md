@@ -1,3 +1,5 @@
+# ALL FINANCE CONTRACT FINAL v10.0
+
 # ALL FINANCE CONTRACT — FINAL v9.0
 
 ## Final versiyadagi asosiy imkoniyatlar
@@ -26,3 +28,9 @@ Oldingi versiyadagi tashkilot belgilanmagan xona narxlari va turistik yig‘imla
 ## Tariflar bo‘yicha qoida
 
 Bir mehmonxona, bir xona turi va bir xil davr uchun tariflar ustma-ust tushishiga tizim yo‘l qo‘ymaydi. Yangi davr ochishdan oldin avvalgi tarifning tugash sanasini belgilang.
+
+
+Qo‘shimcha kelishuvlar va soliq turi bo‘yicha ma’lumotlar Firebase umumiy ish maydonida saqlanadi.
+
+## Huquqiy eslatma
+Qo‘shimcha kelishuv shabloni umumiy xo‘jalik shartnomalari uchun tuzilgan. Maxsus litsenziya, davlat xaridi, valyuta nazorati yoki alohida soha talablari mavjud bo‘lsa, imzolashdan oldin yurist bilan tekshiring. QQS 6% va 0% stavkalari faqat tegishli huquqiy asos mavjud bo‘lganda tanlanadi.
